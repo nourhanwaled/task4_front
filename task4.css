@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* start of navbar*/
+nav{
+    background-color: #888;
+    overflow: hidden;
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin: 0px 30px;
+    vertical-align: middle;
+    
+}
+nav ul li{
+    float: left;
+    overflow: hidden;
+    padding: 25px 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 25px;
+   color: rgba(255,255,255,0.767);
+   text-shadow: 2px 2px 6px rgb(231,65,93);
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color: yellow;
+}
+nav ul li:nth-child(5),nav ul li:last-child{
+    float: right;
+    font-style: italic; 
+}
+/*end of navbar*/
+/*start of header*/
+header{
+    text-transform: capitalize;
+    display: block;
+    height: 500px;
+    background-image: url(images/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header h1{
+    padding: 120px 30px 80px;
+    font-size: 55px;
+    color: #888;
+    text-shadow: 4px 2px 2px black;
+}
+.btn1{
+    text-transform: capitalize;
+    width: 170px;
+    height: 50px;
+    font-size: 20px;
+    margin: 30px;
+    border-radius: 20px 0px;
+    border-color: lightgray  darkgray darkgray lightgray;
+    background-color: rgb(238,125,223);
+    color: yellow;
+    text-shadow: 2px 2px 4px black;
+    margin-left: 35px;
+}
+.btn2{
+    text-transform: capitalize;
+    width: 170px;
+    height: 50px;
+    font-size: 20px;
+    margin: 30px;
+    border-radius: 0px 20px;
+    border-color: lightgray  darkgray darkgray lightgray;
+    background-color: rgb(238,125,223);
+    color: yellow;
+    text-shadow: 2px 2px 4px black;
+    margin-left: 35px;
+}
+header button:hover{
+    color: rgb(133,25,118);
+    background-color: yellow;
+}
+/*end of header*/
+/*start of products*/
+section{
+    width: 100%;
+    margin-top: 0px;
+    height: 750px;
+    background-color: rgb(245,232,209);
+}
+section h1{
+    text-align: center;
+    text-transform: capitalize;
+    color: #888;
+    text-shadow: 2px 2px 4px black;
+    white-space: +30px;
+    font-size: 60px;
+    padding: 40px;
+}
+/*start of table*/
+table{
+    text-align: center;
+    text-transform: capitalize;
+    width: 70%;
+    margin: auto;
+    font-size: 20px;
+    border-collapse: collapse;
+    font-weight: bold;
+}
+table th{
+  border: solid 3px black;
+    padding: 10px;
+  border-collapse: collapse;
+}
+table tr{
+   border: solid 3px;
+  border-collapse: collapse;
+}
+table td{
+   border: solid 3px black;
+   border-collapse: collapse;
+    
+}
+table td:nth-child(3){
+  text-decoration: line-through;
+}
+table img{
+    width: 80px;
+    height: 90px;
+    margin: 10px 0px;
+}
+table .img1{    
+    width: 80px;
+    height: 140px;
+    margin: 10px 0px;
+}
+table tr:nth-child(even){
+   background-color: #888;
+    font-weight: 500px;
+}
+table tr:nth-child(odd){
+  color: #888;
+  border-color: black;
+}
+/*end of table*/
+/*start of footer*/
+footer{
+    height: 15px;
+    text-transform: capitalize;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 60px;
+}
+/*end of footer*/
